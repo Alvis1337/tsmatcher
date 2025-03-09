@@ -2,6 +2,8 @@
 
 This Bash script automates the process of moving media files from a torrent download folder to the appropriate series and season folder in a Sonarr library. It intelligently detects season numbers and matches series names in a case-insensitive manner.
 
+I wrote this out of necessity after I had to reinstall Sonarr and my Sonarr folders and media folders were out of sync. Rather than deal with manual imports on the Sonarr UI we can just do it in bash :finnadie:
+
 ## Features
 
 ✅ **Automatic Series Matching** – Uses fuzzy matching to locate the correct series folder in Sonarr, even if the names don’t exactly match.
